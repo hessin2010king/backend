@@ -1,0 +1,30 @@
+{
+  "name": "alex-library",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@angular/core": "^18.1.4",
+    "@angular/router": "^18.1.4",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/schematics": "^18.1.4",
+    "@angular-eslint/schematics": "^18.2.0"
+  }
+}
